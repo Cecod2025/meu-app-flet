@@ -1,3 +1,6 @@
-git add .
-git commit -m "Corrigindo startCommand"
-git push origin main
+services:
+  - type: web
+    name: meu-app-flet
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python meu_script.py
