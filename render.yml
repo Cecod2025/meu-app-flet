@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: meu-app-flet
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python seu_script.py
